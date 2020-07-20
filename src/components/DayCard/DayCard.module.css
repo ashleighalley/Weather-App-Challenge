@@ -1,0 +1,10 @@
+.Wrapper {
+  width:90vw;
+  margin: 8px auto;
+  padding: 12px 0 15px 0;
+  text-align:center;
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #cecece;
+}

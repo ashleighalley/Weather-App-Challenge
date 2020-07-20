@@ -1,0 +1,90 @@
+.App {
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #003366;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+header {
+  padding:200px 25px 25px 25px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #2d3436;
+  z-index: 1;
+}
+.FlexContainer {
+  font-size:16px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 2rem;
+  width:50%;
+  height:5rem;
+}
+nav li {
+  list-style-type: none;
+  margin: auto;
+  display:inline;
+  text-align: center;
+}
+
+nav li a{
+  color: #dfe6e9;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom: 1px solid transparent;
+  margin: 0;
+  transition: all 300ms linear 0s;
+  text-decoration: none;
+  cursor: pointer;
+}
+nav li a:hover{
+  color: #fdcb6e;
+  border-bottom: 1px solid #fdcb6e;
+}
+
+nav li a:focus{
+  color: #FFFF00;
+  border-bottom: 1px solid #FFFF00;
+}
+
+main {
+  flex-grow:1;
+  text-align:center;
+  padding:25px;
+}
+
+footer {
+  padding:2px;
+  min-height:100px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  color:#000000;
+  background: #EEEEEE;
+  font-size:small;
+  text-align:center;
+}
